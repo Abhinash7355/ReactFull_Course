@@ -1,0 +1,21 @@
+.page1{
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2{
+  background-color: #e0e0e0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3{
+  background-color: #d0d0d0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

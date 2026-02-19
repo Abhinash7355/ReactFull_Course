@@ -1,0 +1,55 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* Full height */
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+/* Default Body Style */
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #111;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  border: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #222;
+
+}
+.card button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.card p{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.card img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+}
